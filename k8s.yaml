@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: covanet/resttemplateserver-hub:58fd2a27a0e577cc26147500b55ebfadb4e2aea8
+          image: covanet/resttemplateserver-hub:64c83f9d28fe574e30cfef3d389ec2bb5dcf51b0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
